@@ -1,13 +1,13 @@
 {
-    "color_and_hello": {
+    "test_all": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
+            "skaffold": {
+                "version": "latest"
             }
+            // "hello": {
+            //     "greeting": "Greetings"
+            // }
         }
     }
 }

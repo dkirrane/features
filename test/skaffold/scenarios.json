@@ -1,0 +1,16 @@
+{
+    "test_skaffold_latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "skaffold": {}
+        }
+    },
+    "test_skaffold_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "skaffold": {
+                "version": "v2.13.1"
+            }
+        }
+    }
+}
