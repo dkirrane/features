@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This test file will be executed against an auto-generated devcontainer.json that
-# includes the 'az-aks-cli' Feature with no options.
+# includes the 'az_aks_cli' Feature with no options.
 #
 # For more information, see: https://github.com/devcontainers/cli/blob/main/docs/features/test.md
 #
@@ -9,7 +9,7 @@
 # {
 #    "image": "<..some-base-image...>",
 #    "features": {
-#      "az-aks-cli": {}
+#      "az_aks_cli": {}
 #    },
 #    "remoteUser": "root"
 # }
@@ -23,7 +23,7 @@
 # 
 # This test can be run with the following command:
 #
-# devcontainer features test --features az-aks-cli --skip-scenarios
+# devcontainer features test --features az_aks_cli --skip-scenarios
 #
 set -e
 

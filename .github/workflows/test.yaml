@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - az-aks-cli        
+          - az_aks_cli        
           - skaffold
         baseImage:
           - debian:latest
@@ -37,7 +37,7 @@ jobs:
       matrix:
         features:
           - skaffold
-          - az-aks-cli
+          - az_aks_cli
     steps:
       - uses: actions/checkout@v4
 
