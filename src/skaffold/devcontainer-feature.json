@@ -1,7 +1,7 @@
 {
     "name": "Skaffold",
     "id": "skaffold",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A feature installs https://skaffold.dev/",
     "options": {
         "version": {
