@@ -11,6 +11,11 @@ if [ "$SKAFFOLD_VERSION" == "latest" ]; then
   echo "Latest version resolved to: $SKAFFOLD_VERSION"
 fi
 
+# If SKAFFOLD_VERSION does not start with 'v', prepend 'v'
+if [[ "$SKAFFOLD_VERSION" != v* ]]; then
+  SKAFFOLD_VERSION="v$SKAFFOLD_VERSION"
+fi
+
 # Determine system architecture and operating system
 OS=$(uname -s | tr '[:upper:]' '[:lower:]')
 ARCH=$(uname -m)
