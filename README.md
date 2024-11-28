@@ -17,7 +17,7 @@ Running `skaffold` inside the built container will install https://skaffold.dev/
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/dkirrane/features/skaffold:2": {
+        "ghcr.io/dkirrane/features/skaffold:1": {
             "version": "v2.13.2"
         }
     }
