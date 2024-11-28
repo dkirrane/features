@@ -1,6 +1,6 @@
 {
     "name": "Azure AKS CLI",
-    "id": "az-aks-cli",
+    "id": "aks",
     "version": "1.0.0",
     "description": "A feature installs az aks cli",
     "options": {

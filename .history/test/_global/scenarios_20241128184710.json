@@ -1,9 +1,0 @@
-{
-    "test_all": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-        "features": {
-            "az_aks_cli": {},    
-            "skaffold": {}
-        }
-    }
-}

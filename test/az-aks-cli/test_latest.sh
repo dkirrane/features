@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This test file will be executed the 'test_az_aks_cli_latest' scenario
+# This test file will be executed the 'test_az-aks-cli_latest' scenario
 
 set -e
 
