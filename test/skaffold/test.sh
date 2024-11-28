@@ -23,7 +23,7 @@
 # 
 # This test can be run with the following command:
 #
-# devcontainer features test --features skaffold
+# devcontainer features test --features skaffold --skip-scenarios
 #
 set -e
 
