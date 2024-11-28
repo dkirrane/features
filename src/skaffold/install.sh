@@ -29,9 +29,10 @@ esac
 # URLs
 SKAFFOLD_URL="https://github.com/GoogleContainerTools/skaffold/releases/download/${SKAFFOLD_VERSION}/skaffold-${ARCH}"
 CHECKSUM_URL="https://github.com/GoogleContainerTools/skaffold/releases/download/${SKAFFOLD_VERSION}/skaffold-${ARCH}.sha256"
+echo "Downloading Skaffold version: $SKAFFOLD_URL"
+echo "Downloading Skaffold checksum: $CHECKSUM_URL"
 
 # Download the Skaffold binary and its checksum
-echo "Downloading Skaffold version: $SKAFFOLD_VERSION"
 curl -Lo skaffold "$SKAFFOLD_URL"
 curl -Lo skaffold.sha256 "$CHECKSUM_URL"
 
