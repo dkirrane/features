@@ -1,0 +1,21 @@
+{
+    "name": "Skaffold",
+    "id": "skaffold",
+    "version": "1.0.0",
+    "description": "A feature installs https://skaffold.dev/",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "red",
+                "gold",
+                "green"
+            ],
+            "default": "latest",
+            "description": "Skaffold version to install ('v' prefix is optional)"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
