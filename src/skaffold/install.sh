@@ -80,3 +80,6 @@ rm ${CHECKSUM_FILE}
 
 # Verify the installation
 skaffold version
+
+# Config
+skaffold config set --global collect-metrics false
