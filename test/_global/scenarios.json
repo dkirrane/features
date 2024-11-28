@@ -4,7 +4,7 @@
         "features": {
             "skaffold": {
                 "version": "latest"
-            },
+            }
             // "hello": {
             //     "greeting": "Greetings"
             // }
