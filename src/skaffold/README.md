@@ -1,15 +1,13 @@
 
-# Skaffold
+# Skaffold (skaffold)
 
-A feature to install https://skaffold.dev/
+A feature installs https://skaffold.dev/
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/dkirrane/features/skaffold:1": {
-        "version": "latest"
-    }
+    "ghcr.io/dkirrane/features/skaffold:1": {}
 }
 ```
 
@@ -17,10 +15,10 @@ A feature to install https://skaffold.dev/
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | Choose your favorite color. | string | red |
+| version | Skaffold version to install ('v' prefix is optional) | string | latest |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/feature-starter/blob/main/src/color/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/dkirrane/features/blob/main/src/skaffold/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
