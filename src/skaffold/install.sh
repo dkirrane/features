@@ -10,7 +10,7 @@ then
 
     # Check if the package manager is apt (for Ubuntu/Debian)
     if command -v apt &> /dev/null; then
-        apt update
+        # apt update
         apt install -y curl
     else
         echo "No supported package manager found. Please install curl manually."
