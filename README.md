@@ -2,7 +2,7 @@
 
 > This repo contains custom [dev container Features](https://containers.dev/implementors/features/), hosted on GitHub Container Registry.
 
-## Example Contents
+## Contents
 
 This repository contains a _collection_ of Features:
 - `skaffold`
