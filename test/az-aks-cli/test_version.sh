@@ -10,10 +10,7 @@ source dev-container-features-test-lib
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
 # https://github.com/teslamotors/devcontainers-cli/blob/main/docs/features/test.md#dev-container-features-test-lib
-check "Skaffold is available" bash -c "skaffold version"
-check "Check Skaffold version is correct" bash -c "skaffold version | grep 'v2.13.1'"
-
-check "kubectl is available" bash -c "kubectl version"
+check "kubectl is available" bash -c "kubectl version --client=true"
 check "kubelogin is available" bash -c "kubelogin --version"
 
 # Report results

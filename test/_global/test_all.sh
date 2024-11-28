@@ -25,7 +25,7 @@ echo -e "\n"
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
-check "check az-aks-cli command" bash -c "kubectl version"
+check "check az-aks-cli command" bash -c "kubectl version --client=true"
 check "check skaffold command" bash -c "skaffold version"
 
 # Report result
