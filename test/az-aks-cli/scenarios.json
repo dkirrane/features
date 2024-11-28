@@ -1,0 +1,17 @@
+{
+    "test_latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "az-aks-cli": {}
+        }
+    },
+    "test_version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "az-aks-cli": {
+                "version": "v1.27.2",
+                "kubelogin": "v0.1.3"
+            }
+        }
+    }
+}

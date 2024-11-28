@@ -6,11 +6,6 @@
     "options": {
         "version": {
             "type": "string",
-            "enum": [
-                "red",
-                "gold",
-                "green"
-            ],
             "default": "latest",
             "description": "Skaffold version to install ('v' prefix is optional)"
         }

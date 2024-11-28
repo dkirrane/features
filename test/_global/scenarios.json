@@ -2,12 +2,8 @@
     "test_all": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "skaffold": {
-                "version": "latest"
-            }
-            // "hello": {
-            //     "greeting": "Greetings"
-            // }
+            "az-aks-cli": {},    
+            "skaffold": {}
         }
     }
 }
