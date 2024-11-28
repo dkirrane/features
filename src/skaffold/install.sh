@@ -26,7 +26,7 @@ case "$ARCH" in
   *) echo "Unsupported architecture: $ARCH"; exit 1 ;;
 esac
 
-# Urls
+# URLs
 SKAFFOLD_URL="https://github.com/GoogleContainerTools/skaffold/releases/download/${SKAFFOLD_VERSION}/skaffold-${ARCH}"
 CHECKSUM_URL="https://github.com/GoogleContainerTools/skaffold/releases/download/${SKAFFOLD_VERSION}/skaffold-${ARCH}.sha256"
 
