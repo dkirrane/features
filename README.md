@@ -66,8 +66,7 @@ This repo contains a **GitHub Action** [workflow](.github/workflows/release.yaml
 By default, each Feature will be prefixed with the `<owner/<repo>` namespace.  For example, the two Features in this repository can be referenced in a `devcontainer.json` with:
 
 ```
-ghcr.io/devcontainers/feature-starter/color:1
-ghcr.io/devcontainers/feature-starter/hello:1
+ghcr.io/dkirrane/features/skaffold:1
 ```
 
 The provided GitHub Action will also publish a third "metadata" package with just the namespace, eg: `ghcr.io/devcontainers/feature-starter`.  This contains information useful for tools aiding in Feature discovery.
@@ -81,7 +80,7 @@ Note that by default, GHCR packages are marked as `private`.  To stay within the
 This can be done by navigating to the Feature's "package settings" page in GHCR, and setting the visibility to 'public`.  The URL may look something like:
 
 ```
-https://github.com/users/<owner>/packages/container/<repo>%2F<featureName>/settings
+https://github.com/users/dkirrane/packages/container/features%2Fskaffold/settings
 ```
 
 <img width="669" alt="image" src="https://user-images.githubusercontent.com/23246594/185244705-232cf86a-bd05-43cb-9c25-07b45b3f4b04.png">
