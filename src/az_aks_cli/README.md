@@ -1,5 +1,5 @@
 
-# az aks install-cli (az-aks-cli)
+# az aks install-cli (az_aks_cli)
 
 A feature installs https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest
 
@@ -7,7 +7,7 @@ A feature installs https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cl
 
 ```json
 "features": {
-    "ghcr.io/dkirrane/features/az-aks-cli:1": {}
+    "ghcr.io/dkirrane/features/az_aks_cli:1": {}
 }
 ```
 
