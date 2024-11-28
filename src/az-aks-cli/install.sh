@@ -13,7 +13,7 @@ else
 fi
 
 KUBECTL_VERSION="${VERSION:-latest}"
-KUBELOGIN_VERSION="${VERSION:-latest}"
+KUBELOGIN_VERSION="${KUBELOGIN:-latest}"
 
 # Install
 az aks install-cli --client-version ${KUBECTL_VERSION} --kubelogin-version ${KUBELOGIN_VERSION}
