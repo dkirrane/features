@@ -1,0 +1,26 @@
+{
+    "name": "Azure AKS CLI",
+    "id": "aks",
+    "version": "1.0.0",
+    "description": "A feature installs az aks cli",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of kubectl to install"
+        },
+        "kubelogin": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of kubelogin to install"
+        }        
+    },
+    "dependsOn": {
+		"ghcr.io/devcontainers/features/azure-cli:1": {
+			"version": "latest"
+		}
+    },    
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
