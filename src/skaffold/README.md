@@ -17,7 +17,9 @@ A feature installs https://skaffold.dev/
 |-----|-----|-----|-----|
 | version | Skaffold version to install ('v' prefix is optional) | string | latest |
 
-
+## Skaffold references
+- https://skaffold.dev/docs/
+- https://skaffold.dev/docs/references/yaml/
 
 ---
 
