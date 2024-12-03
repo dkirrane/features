@@ -17,6 +17,7 @@ jobs:
         features:
           - az-aks-cli        
           - skaffold
+          - chezmoi
         baseImage:
           - debian:latest
           - ubuntu:latest
