@@ -1,5 +1,5 @@
 
-# chezmoi (chezmoi)
+# Chezmoi the dotfiles manager (chezmoi)
 
 A feature installs https://www.chezmoi.io/
 
@@ -15,11 +15,15 @@ A feature installs https://www.chezmoi.io/
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| version | chezmoi version to install ('v' prefix is optional) | string | latest |
+| github_username | Chezmoi version to install ('v' prefix is optional) | string | dkirrane |
 
-## chezmoi references
+## Chezmoi references
 - https://www.chezmoi.io/
+
+## ToDo
+Maybe in future also setup dotfiles once I figure out github access
+https://github.com/orgs/devcontainers/discussions/184
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/dkirrane/features/blob/main/src/skaffold/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/dkirrane/features/blob/main/src/chezmoi/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
