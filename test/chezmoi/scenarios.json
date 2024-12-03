@@ -1,0 +1,18 @@
+{
+    "test_latest": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "chezmoi": {
+                "github_username": "dkirrane"
+            }
+        }
+        
+        // https://github.com/orgs/devcontainers/discussions/184
+        // gh auth status - https://github.com/cli/cli/discussions/3226
+        // https://stackoverflow.com/questions/73676584/sharing-ssh-credentials-with-dev-container-in-vscode
+        // "mounts": [
+        //     "source=${localEnv:HOME}/.ssh,target=/home/root/.ssh,type=bind,consistency=cached",
+        //     "source=${localEnv:HOME}/.config/gh,target=/home/root/.config/gh,type=bind"
+        // ]        
+    }
+}

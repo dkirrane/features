@@ -1,0 +1,19 @@
+{
+    "name": "Chezmoi the dotfiles manager",
+    "id": "chezmoi",
+    "version": "1.0.2",
+    "description": "A feature installs https://www.chezmoi.io/",
+    "options": {
+        "github_username": {
+            "type": "string",
+            "default": "dkirrane",
+            "description": "Chezmoi version to install ('v' prefix is optional)"
+        }
+    },
+    // "dependsOn": {
+	// 	"ghcr.io/devcontainers/features/github-cli:1": {}
+    // },     
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
